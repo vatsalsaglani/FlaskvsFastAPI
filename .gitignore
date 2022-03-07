@@ -1,3 +1,4 @@
 .vscode/
 fast_api/__pycache__/
 flask_api/__pycache__/
+*.json

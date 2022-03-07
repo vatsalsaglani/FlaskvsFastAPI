@@ -46,3 +46,7 @@ import requests
 ```
 
 Do this in two different cells and you will have your result. Check the `wall time` to observe the total elapsed time
+
+### Bonus
+
+If you compare the `util.py` file in both the **flask_api** and the **fast_api** folders you will observe that we end up writing very less code when creating and executing `async` functions in **FastAPI**. Let's say it's _developer friendly_ when it comes to making `async` calls and calling independent functions in parallel.

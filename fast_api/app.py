@@ -11,4 +11,7 @@ async def api_fast_multiply():
     results = await asyncio.gather(*[array_multiply(_) for _ in range(5)],
                                    return_exceptions=True)
 
+    # with open("result_fast_api.json", "w") as fp:
+    #     json.dump(results, fp)
+
     return {"message": "HELLO"}
